@@ -381,3 +381,10 @@ strong {
 .nav-icon-2 {
     height: 30px;
 }
+
+/* Courses Search Filter */
+
+.div-search-filter {
+    background-color: #C271FF;
+}
+
