@@ -1,0 +1,383 @@
+/* Header Homepage */
+
+.bg-image {
+    background-image: url("./images/pic_1.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-color: #071629;
+}
+
+.nav-item {
+    font-size: 12px;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
+
+.nav-img {
+    height: 30px;
+}
+
+.nav-text {
+    height: 30px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-toggler {
+    border: none !important;
+    width: 44px;
+    height: 30px;
+}
+
+.navbar-toggler .line-1 {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    float: left;
+}
+
+.navbar-toggler .line-2 {
+    width: 13px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    float: left;
+}
+
+.navbar-toggler .line-3 {
+    width: 18px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    float: left;
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.list-header {
+    list-style: none;
+}
+
+.text-header {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    color: #FFFFFF;
+    line-height: 151px;
+    margin-top: 140px;
+}
+
+.list-item {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.list-item-1, .list-item-2 {
+    padding-right: 59px;
+}
+
+button:hover, button:active {
+    opacity: 0.9;
+}
+
+.btn-header {
+    background: #C271FF;
+    border-radius: 22px;
+    border: none;
+    color: #FFFFFF;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    width: 162px;
+    height: 44px;
+    margin-top: 18px;
+}
+
+.rounded-circle {
+    width: 150px;
+    height: 150px;
+}
+
+.div-images-text {
+    margin-top: 168px;
+}
+
+strong {
+    font-weight: bold;
+    color: #C271FF;
+}
+
+.text-div-images {
+    font-family: Source Sans Pro;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 87px;
+}
+
+.image-title {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.image-quote {
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 576px) {
+    .text-header {
+        font-size: 61px;
+    }
+}
+
+/* Header Courses */
+
+.bg-image-courses {
+    background-image: url("./images/pic_3.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-color: #071629;
+    min-height: 216px;
+}
+
+.text-header-courses {
+    font-family: Coiny;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Carousel Section */
+
+.carousel-section {
+    background-color: #C271FF;
+}
+
+.carousel-text {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #FFFFFF;
+    max-width: 730px;
+}
+
+.carousel-div {
+    margin-top: 108px;
+    margin-bottom: 124px;
+}
+
+.carousel-image {
+    height: 160px;
+    width: 160px;
+}
+
+.arrow {
+    width: 30px;
+    height: 63px;
+}
+
+#carouselExampleControls {
+    background-color: #C271FF;
+}
+
+@media screen and (max-width: 576px) {
+    .arrow {
+        margin-bottom: 280px;
+    }
+}
+
+/* Carousel Cards Section */
+
+.text-carousel-cards {
+    color: #071629;
+}
+
+.container-text {
+    margin-top: 87px;
+}
+
+.card-title {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #071629;
+}
+
+.card-text {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+.image-play {
+    height: 64px;
+    width: 64px;
+    margin: auto;
+}
+
+.image-avatar-card {
+    width: 30px;
+    height: 30px;
+}
+
+.text-image-avatar {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    color: #C271FF;
+}
+
+.star {
+    width: 15px;
+    height: 15px;
+}
+
+.container-cards-videos {
+    max-width: 1228px;
+}
+
+/* Membership Section */
+
+.membership {
+    background-color: #071629;
+    width: 100%;
+}
+
+.membership-pic {
+    width: 45px;
+    height: 36px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.membership-name {
+    max-width: 215px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 26px;
+    margin-bottom: 13px;
+}
+
+.membership-des {
+    max-width: 215px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.membership-tittle {
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.membership-tittle .learn {
+    color: #C271FF;
+}
+
+.btn-membership {
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    background-color: #C271FF;
+    border-radius: 22px;
+    margin-top: 60px;
+    margin-bottom: 52px;
+}
+
+/* Footer */
+
+.footer {
+    height: 249px;
+    background-color: #071629;
+}
+
+.copyright {
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    Line-height: 15px;
+    margin-top: 74px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.footbar {
+    margin-top: 90px;
+}
+
+.footbar-sm {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.copyright-sm {
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    Line-height: 15px;
+    margin-top: 45px;
+    margin-bottom: 34px;
+    color: #FFFFFF;
+}
+
+.nav-icon-1 {
+    height: 30px;
+}
+
+.nav-icon-2 {
+    height: 30px;
+}
