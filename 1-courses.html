@@ -9,15 +9,17 @@
     <link rel='stylesheet' href='styles.css'>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -72,41 +74,44 @@
 
     <!-- Search filters section -->
     <div class="d-flex justify-content-center div-search-filter">
-        <div class="d-flex container justify-content-center row my-5">
-            <div class="dropdown col-4 text-center">
-                <button class="btn btn-secondary dropdown-toggle text-left" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Dropdown button
+        <div class="d-flex container justify-content-center row my-4 ">
+            <!-- <div class="col-lg-4 col-md-12 col-12 mb-3">
+                <label class="label-select">KEYBOARDS</label>
+                <input class="btn text-left text-white btn-dropdown rounded-top border-bottom" type="search" placeholder="Search by keyboards" aria-label="Search">
+            </div> -->
+
+            <div class="form-group has-search col-lg-4 col-md-12 col-12 mb-3">
+                <label class="label-select">KEYBOARDS</label>
+                <span class="fa fa-search form-control-feedback"></span>
+                <input type="text" class="form-control btn text-left text-white btn-dropdown rounded-top border-bottom" placeholder="Search by keyboards">
+            </div>
+
+            <div class="dropdown col-lg-4 col-md-6 col-12 mb-3">
+                <label class="label-select">TOPIC</label>
+                <button class="btn text-left dropdown-toggle rounded-top border-bottom btn-dropdown dropdown-1" type="button"
+                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Novice
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-menu rounded-0 mt-0" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Novice</a>
+                    <a class="dropdown-item" href="#">Intermediate</a>
+                    <a class="dropdown-item" href="#">Expert</a>
                 </div>
             </div>
-            <div class="dropdown col-4 text-center">
-                <button class="btn btn-secondary dropdown-toggle text-left" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Dropdown button
+            <div class="dropdown col-lg-4 col-md-6 col-12 mb-2">
+                <label class="label-select">SORT BY</label>
+                <button class="btn text-left dropdown-toggle rounded-top border-bottom btn-dropdown" type="button"
+                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Most Popular
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </div>
-            <div class="dropdown col-4 text-center">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Dropdown button
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-menu rounded-0 mt-0" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Most Popular</a>
+                    <a class="dropdown-item" href="#">Most Recent</a>
+                    <a class="dropdown-item" href="#">Most Viewed</a>
                 </div>
             </div>
         </div>
     </div>
-    </body>
-    </html>
+
+</body>
+</html>
