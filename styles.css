@@ -463,6 +463,18 @@ strong {
     background-color: #071629;
 }
 
+.nav-item {
+    color: #FFFFFF;
+}
+
+.selected {
+    color: #C271FF !important;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-position: under;
+    text-decoration-thickness: 2px;
+}
+
 .pricing-header-container {
     margin-top: 192px;
 }
@@ -572,4 +584,125 @@ body>header>nav>div.table-container.d-flex.justify-content-center.mt-3>table>tbo
 .signal-image {
     width: 88px;
     height: 35px;
+}
+
+/* FAQ styles */
+
+.FAQ {
+    min-height: 900px;
+    background-color: #F2F2F2;
+}
+
+.FAQ-name {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+    color: #071629;
+    margin-right: 230px;
+    margin-bottom: 30px;
+    max-width: 350px;
+    min-width: 137.21px;
+}
+
+.FAQ-des {
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.5016);
+    max-width: 350px;
+    margin-bottom: 74px;
+}
+
+.FAQ-tittle {
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    line-height: 75px;
+    color: #071629;
+    margin-top: 74px;
+    margin-bottom: 74px;
+}
+
+/* videos section */
+
+.videos-section {
+    min-height: 1264;
+}
+
+.text-video {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(7, 22, 41, 0.296247);
+    margin-top: 47px;
+    margin-bottom: 33px;
+}
+
+.card-custom {
+    margin-bottom: 35px;
+}
+
+/* prices section */
+
+.header-3 {
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 40px;
+    margin-top: 136px;
+    margin-bottom: 75px;
+}
+
+.bold-text-3 {
+    font-size: 32px;
+    font-family: 'Coiny';
+    font-weight: 400;
+    color: white;
+    line-height: 35px;
+    margin-top: 136px;
+    margin-bottom: 75px;
+
+}
+
+.smile-3 {
+    height: 28px;
+}
+
+.header-4 {
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    margin-top: 136px;
+    margin-bottom: 50px;
+}
+
+.bold-text-4 {
+    font-size: 24px;
+    font-family: 'Coiny';
+    font-weight: 400;
+    color: white;
+    line-height: 26px;
+    margin-top: 136px;
+    margin-bottom: 50px;
+
+}
+
+.smile-4 {
+    height: 24px;
+}
+
+.header-5 {
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: white;
+    line-height: 75px;
 }
